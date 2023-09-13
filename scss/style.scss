@@ -1,19 +1,20 @@
 // Null Style File
 @import "_nullstyle.scss";
 
-*{
+* {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.main-title{
+.main-title {
     text-align: center;
     margin-top: 50px;
 }
 
-ul{
+ul {
     margin: 50px auto;
     width: 700px;
-    .posts-list-item{
+
+    .posts-list-item {
         position: relative;
         display: flex;
         flex-direction: column;
@@ -24,7 +25,7 @@ ul{
         border-radius: 10px;
         box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 
-        .post-index{
+        .post-index {
             position: absolute;
             top: -20px;
             left: -20px;
@@ -37,11 +38,11 @@ ul{
             background-color: lightgreen;
         }
 
-        .post-title{
+        .post-title {
             margin-bottom: 20px;
         }
 
-        .post-text{
+        .post-text {
             text-overflow: ellipsis;
             overflow: hidden;
             display: -webkit-box;
@@ -50,7 +51,7 @@ ul{
             white-space: normal;
         }
 
-        .post-link{
+        .post-link {
             text-align: center;
             color: cornflowerblue;
             cursor: pointer;
